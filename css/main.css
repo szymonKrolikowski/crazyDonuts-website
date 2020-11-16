@@ -122,6 +122,34 @@ html {
   width: 100%;
 }
 
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 120rem;
+  padding: 5rem 2rem;
+  margin: 0 auto;
+}
+
+.gallery__element {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.gallery__image {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0rem 0rem 2rem 0rem #362A28;
+          box-shadow: 0rem 0rem 2rem 0rem #362A28;
+}
+
 @media screen and (min-width: 768px) {
   .headingOne {
     font-size: 6rem;
