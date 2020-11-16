@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import "./_colors"
+
+*,
+::after,
+::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 62.5%
+    font-family: 'Roboto', sans-serif
+
+.headingOne
+    font-family: 'Gloria Hallelujah', cursive
+    font-size: 4.2rem
+    color: $black
+
+.button
+    font-family: 'Gloria Hallelujah', cursive
+    font-size: 1.4rem
+    border-radius: 2rem
+    margin-top: 2rem
+    padding: 0.3rem 2rem
+    box-shadow: 0rem 0rem 2rem 0.5rem $pink
+    border: none
+    background: none
+    background-color: $pink
+    color: $white
+    transition: background-color 0.5s
+
+    &:hover
+        background-color: $black
+
+.header
+    width: 100vw
+    height: 100vh
+    background-image: url("/images/headerBackground.jpg")
+    background-position: center
+    background-size: cover
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    &__paragraph
+        font-size: 1.4rem
+        font-weight: 700
+        letter-spacing: 0.2rem
+        text-transform: uppercase
+
+@import "./_small"
+@import "./_medium"
+@import "./_large"
