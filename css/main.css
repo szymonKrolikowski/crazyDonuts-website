@@ -97,8 +97,6 @@ html {
 }
 
 .aboutUs {
-  max-width: 140rem;
-  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,11 +107,14 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 120rem;
+  padding: 5rem 2rem;
+  margin: 0 auto;
 }
 
 .aboutUs__imageBox {
@@ -125,12 +126,41 @@ html {
   .headingOne {
     font-size: 6rem;
   }
+  .headingTwo {
+    font-size: 3rem;
+    text-align: left;
+  }
   .button {
     font-size: 2rem;
     padding: 0.3rem 3rem;
   }
+  .paragraph {
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .paragraphPink {
+    font-size: 2.2rem;
+    text-align: left;
+  }
   .header__paragraph {
     font-size: 1.8rem;
+  }
+  .aboutUs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 5rem 3rem;
+  }
+  .aboutUs__textBox {
+    width: 60%;
+  }
+  .aboutUs__imageBox {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=main.css.map */
