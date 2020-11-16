@@ -19,6 +19,35 @@ html {
   color: #362A28;
 }
 
+.headingTwo {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #49CFC7;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin: 2rem 0rem;
+  text-align: center;
+  color: #362A28;
+}
+
+.paragraphPink {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #E34C93;
+}
+
+.imageBox__image {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
 .button {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.4rem;
@@ -65,6 +94,31 @@ html {
   font-weight: 700;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+}
+
+.aboutUs {
+  max-width: 140rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUs__imageBox {
+  margin-top: 2rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
