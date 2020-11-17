@@ -21,7 +21,7 @@ html {
 
 .headingTwo {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   text-align: center;
   color: #49CFC7;
 }
@@ -36,7 +36,7 @@ html {
 
 .paragraphPink {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   text-align: center;
   color: #E34C93;
 }
@@ -113,7 +113,7 @@ html {
   -ms-flex-line-pack: center;
       align-content: center;
   max-width: 120rem;
-  padding: 5rem 2rem;
+  padding: 5rem 1rem;
   margin: 0 auto;
 }
 
@@ -138,6 +138,13 @@ html {
   margin: 0 auto;
 }
 
+.gallery__paragraph {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2.6rem;
+  text-align: center;
+  color: #E34C93;
+}
+
 .gallery__element {
   width: 90%;
   margin: 2rem auto;
@@ -155,7 +162,7 @@ html {
     font-size: 6rem;
   }
   .headingTwo {
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-align: left;
   }
   .button {
@@ -168,7 +175,7 @@ html {
     line-height: 2.8rem;
   }
   .paragraphPink {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     text-align: left;
   }
   .header__paragraph {
@@ -189,6 +196,29 @@ html {
   }
   .aboutUs__imageBox {
     width: 40%;
+  }
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gallery__element {
+    width: 26%;
+    margin: 2rem auto;
+  }
+  .headingTwo--gallery {
+    display: block;
+    text-align: center;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
